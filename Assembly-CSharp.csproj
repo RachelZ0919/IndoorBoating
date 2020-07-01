@@ -54,7 +54,6 @@
      <Compile Include="Assets\DepthColliderDemo\Scripts\DepthImageViewer.cs" />
      <Compile Include="Assets\DepthColliderDemo\Scripts\EggMover.cs" />
      <Compile Include="Assets\DepthColliderDemo\Scripts\EggSpawner.cs" />
-     <Compile Include="Assets\Floater.cs" />
      <Compile Include="Assets\GesturesDemo\Scripts\GestureListener.cs" />
      <Compile Include="Assets\GesturesDemo\Scripts\PresentationScript.cs" />
      <Compile Include="Assets\KinectScripts\AvatarController.cs" />
@@ -81,8 +80,11 @@
      <Compile Include="Assets\Resources\Scripts\Boat&amp;Player\Boat.cs" />
      <Compile Include="Assets\Resources\Scripts\Boat&amp;Player\KinectBoatControl.cs" />
      <Compile Include="Assets\Resources\Scripts\Boat&amp;Player\Player.cs" />
+     <Compile Include="Assets\Resources\Scripts\Boat&amp;Player\PlayerControll_test.cs" />
      <Compile Include="Assets\Resources\Scripts\Coin\Coin.cs" />
      <Compile Include="Assets\Resources\Scripts\Coin\CoinCollector.cs" />
+     <Compile Include="Assets\Resources\Scripts\Floater.cs" />
+     <Compile Include="Assets\Resources\Scripts\soundManager.cs" />
      <Compile Include="Assets\Resources\Scripts\UI\CoinUI.cs" />
      <Compile Include="Assets\Resources\Scripts\UI\MapComponent.cs" />
      <Compile Include="Assets\Resources\Scripts\UI\MapViewer.cs" />
