@@ -94,6 +94,7 @@
      <Compile Include="Assets\Resources\Scripts\Water\ProceduralGrid.cs" />
      <Compile Include="Assets\Resources\Scripts\Water\Wave.cs" />
      <None Include="Assets\Resources\Shaders\Waves.shader" />
+     <None Include="Assets\Stylized Forest\Readme.txt" />
  <Reference Include="UnityEngine.CoreModule">
  <HintPath>D:/Software/Unity/2017.4.41c1/Editor/Data/Managed/UnityEngine/UnityEngine.CoreModule.dll</HintPath>
  </Reference>

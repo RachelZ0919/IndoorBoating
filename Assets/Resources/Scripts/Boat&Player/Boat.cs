@@ -13,14 +13,4 @@ public class Boat : MonoBehaviour
     {
         //TODO:碰撞反馈
     }
-
-    private void Update()
-    {
-        BoatRotationAdjust();
-    }
-
-    private void BoatRotationAdjust()
-    {
-        //TODO:可能需要写的函数，修正船的方向防止船翻了
-    }
 }
