@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Stylized Forest/Demo/Demo_2.unity
+- path: Assets/Scenes/UIbuild_scene.unity
   isLoaded: 1
   isActive: 1

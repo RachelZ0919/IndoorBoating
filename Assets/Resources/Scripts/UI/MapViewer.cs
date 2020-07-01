@@ -4,18 +4,23 @@ using UnityEngine;
 
 public class MapViewer : MonoBehaviour {
 
-	// Use this for initialization
-	void Start () {
-		
-	}
+    private Camera mapCamera;
+    private Transform player;
+    private Vector3 offsetPos;
+
+    void Start () {
+        mapCamera = GameObject.FindGameObjectWithTag("MapCamera").GetComponent<Camera>();
+        player = GameObject.FindGameObjectWithTag("Player").transform;
+        offsetPos = mapCamera.transform.position - player.position;
+    }
 	
-	// Update is called once per frame
 	void Update () {
-		
+        UpdateMap();
 	}
 
 	private void UpdateMap()
 	{
-		//TODO:更新地图信息
-	}
+        //更新地图信息
+        mapCamera.transform.position = offsetPos + player.position;
+    }
 }
