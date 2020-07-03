@@ -7,6 +7,7 @@ public class WindowManager : MonoBehaviour {
     public GameObject[] windows;
     private float windowOpened = 0;
     private GameObject PauseUI;
+    private GameObject gameOverUI;
 
 
     private void Start()
@@ -18,7 +19,10 @@ public class WindowManager : MonoBehaviour {
     {
         //TODO:游戏运行时初始化所有窗口状态（可能都是关闭）
         PauseUI = GameObject.Find("HUD/Canvas/PauseUI/");
+        gameOverUI = GameObject.Find("HUD/Canvas/GameOverUI");
+
         PauseUI.SetActive(false);
+        gameOverUI.SetActive(false);
     }
 
     private void Update()
